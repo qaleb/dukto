@@ -1,0 +1,18 @@
+Source: dukto
+Priority: optional
+Section: net
+Maintainer: Emanuele Colombo <dukto@msec.it>
+Build-Depends: debhelper (>= 9), qttools5-dev-tools (>= 5.4), qt5-qmake (>= 5.4), qtbase5-dev (>= 5.4),
+ qtquick1-5-dev (>= 5.4)| qml-module-qtquick2 (>=5.7), libqt5sensors5-dev (>= 5.4), qtscript5-dev (>= 5.4), g++, build-essential
+
+Package: dukto
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Easy multi-platform file and text transfer tool
+ Dukto is an easy file transfer tool designed for LAN use.
+ You can use it to transfer files from one PC to another,
+ without worrying about users, permissions, operating systems,
+ protocols, clients, servers and so on... Just start dukto on
+ the two PCs and transfer files and folders by dragging onto
+ it's window.
+ 
