@@ -417,6 +417,14 @@ void GuiBehind::sendDroppedFiles(QStringList *files)
     startTransfer(toSend);
 }
 
+void GuiBehind::sendBuddyDroppedFiles(const QStringList &files)
+{
+    if (files.isEmpty()) return;
+
+    // Send files
+    QStringList toSend = files;
+    startTransfer(toSend);
+}
 
 void GuiBehind::sendSomeFiles()
 {
@@ -427,7 +435,7 @@ void GuiBehind::sendSomeFiles()
     QStringList files = QFileDialog::getOpenFileNames(nullptr, tr("Send some files"));
     #endif
     if (files.count() == 0) return;
-
+     qDebug() <<"The files are:" << files;
     // Send files
     QStringList toSend = files;
     startTransfer(toSend);

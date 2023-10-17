@@ -50,7 +50,36 @@ Flipable {
            width: 5
            color: theme.color3
        }
+
    }
+
+
+   // Define the drop target using a DropArea
+   /*DropArea {
+       id: dropTarget
+       anchors.fill: parent
+
+       onEntered: {
+           // Handle when an item is dragged over this area
+           console.log("A file is on top of me.");
+       }
+
+       onDropped: guiBehind.sendDroppedFiles(fileDialog.fileUrl)
+
+       Rectangle {
+           anchors.fill: parent
+           color: "#00000000"
+           visible: buddyMouseArea.containsMouse
+
+           Rectangle {
+               anchors.right: parent.right
+               anchors.top: parent.top
+               height: 64
+               width: 5
+               color: theme.color3
+           }
+       }
+   }*/
 
    front: Item {
        id: temp

@@ -186,6 +186,7 @@ public slots:
     void changeThemeColor(QString color);
     void resetProgressStatus();
     void abortTransfer();
+    void sendBuddyDroppedFiles(const QStringList &files);
 
 #if defined(Q_OS_S60)
     void connectOpened();

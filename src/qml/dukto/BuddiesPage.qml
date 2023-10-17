@@ -37,7 +37,7 @@ Item {
                  buddyGeneric: generic
                  buddyUsername: username
                  buddySystem: system
-                 buddyIpAddress: ip !== "IP" ? ip : ""
+                 buddyIpAddress: ip !== "IP" ? ip.substring(7) : ""
                  buddyOsLogo: oslogo
                  buddyShowBack: showback
              }

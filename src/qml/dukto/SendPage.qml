@@ -47,6 +47,38 @@ Rectangle {
         }
     }
 
+    DropArea {
+       id: dropTarget
+       anchors.fill: parent
+
+       /*onEntered: {
+           // Handle when an item is dragged over this area
+           console.log("A file is on top of me.");
+       }*/
+
+       onDropped: {
+           if (drop.hasUrls) {
+               var filesList = drop.urls.map(function(url) { return url.toString().substring(7); });
+               // Pass the list of file URLs to the sendDroppedFiles function
+               guiBehind.sendBuddyDroppedFiles(filesList);
+           }
+       }
+
+       Rectangle {
+           anchors.fill: parent
+           color: "#00000000"
+//           visible: buddyMouseArea.containsMouse
+
+           Rectangle {
+               anchors.right: parent.right
+               anchors.top: parent.top
+               height: 64
+               width: 5
+               color: theme.color3
+           }
+       }
+   }
+
     SmoothText {
         id: boxTitle
         anchors.left: backIcon.right
@@ -71,7 +103,7 @@ Rectangle {
         buddyOsLogo:destinationBuddy.osLogo
         buddyUsername: destinationBuddy.username
         buddySystem: destinationBuddy.system
-        buddyIpAddress: destinationBuddy.ip
+        buddyIpAddress: destinationBuddy.ip.substring(7)
         buddyIp: "-"
     }
 
@@ -175,7 +207,7 @@ Rectangle {
         label: qsTr("Send a folder")
         onClicked: guiBehind.sendFolder()
     }
-/*
+
     ButtonDark {
         id: buttonSendScreen
         anchors.top: buttonSendFolder.bottom
@@ -186,7 +218,7 @@ Rectangle {
         label: "Send a screenshot"
         onClicked: guiBehind.sendScreen()
     }
-*/
+
     SText {
         id: labelDrop
         anchors.left: localBuddy.left
