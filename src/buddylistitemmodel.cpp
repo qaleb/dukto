@@ -64,7 +64,7 @@ void BuddyListItemModel::addBuddy(QString ip, qint16 port, QString username, QSt
 {
     QStandardItem* it = NULL;
     bool add = true;
-
+    // qDebug() << "Adding buddy with IP:" << ip.mid(7);
     // Check if the same IP is alreay in the buddy list
     if (mItemsMap.contains(ip)) {
         it = mItemsMap[ip];
