@@ -259,4 +259,54 @@ Rectangle {
         color: "#6D0D71"
         onClicked: picker.setColor(color)
     }
+
+    SText {
+        id: labelColorHexCode
+        color: theme.color5
+        text: qsTr("HEX:")
+        anchors.left: parent.left
+        anchors.top: cbox7.bottom
+        font.pixelSize: 14
+        anchors.topMargin: 14
+        anchors.leftMargin: 181
+    }
+
+    Rectangle {
+        id: rectColorHexCode
+        anchors.left: labelColorHexCode.right
+        anchors.right: parent.right
+        anchors.top: cbox7.bottom
+        anchors.leftMargin: 5
+        anchors.rightMargin: 57
+        anchors.topMargin: 7
+        height: 30
+        color: theme.color2
+        clip: true
+
+        STextInput {
+            id: textColorHexCode
+            anchors.top: parent.top
+            anchors.left: parent.left
+            anchors.topMargin: 7
+            anchors.leftMargin: 5
+            anchors.rightMargin: 5
+            anchors.fill: parent
+            horizontalAlignment: "AlignLeft"
+            font.pixelSize: 12
+            text: theme.color2.toUpperCase()
+
+            onTextChanged: {
+                // Check if the entered text is a valid color code
+                var validColor = /^#[0-9A-Fa-f]{6}$/; // A regex to validate a hex color code
+
+                if (validColor.test(text)) {
+                    // If it's a valid color code, update the userEnteredColor property
+                    if(theme.color2.toUpperCase() !== text.toUpperCase()) {
+                        console.log(text);
+                        picker.setColor(text); // Update the theme color
+                    }
+                }
+            }
+        }
+    }
 }

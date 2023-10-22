@@ -58,7 +58,8 @@ Rectangle {
 
        onDropped: {
            if (drop.hasUrls) {
-               var filesList = drop.urls.map(function(url) { return url.toString().substring(7); });
+               var filesList = drop.urls.map(function(url) { return url.toString(); });
+               console.log(filesList);
                // Pass the list of file URLs to the sendDroppedFiles function
                guiBehind.sendBuddyDroppedFiles(filesList);
            }
