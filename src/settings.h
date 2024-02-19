@@ -38,8 +38,8 @@ public:
     QString themeColor();
     void saveShowTermsOnStart(bool show);
     bool showTermsOnStart();
-    QString buddyName();
     void saveBuddyName(QString name);
+    QString buddyName();
 
 signals:
 
