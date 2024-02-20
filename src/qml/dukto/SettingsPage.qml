@@ -149,6 +149,11 @@ Rectangle {
             horizontalAlignment: "AlignLeft"
             font.pixelSize: 12
             text: guiBehind.buddyName
+
+            onEditingFinished: {
+                // Save the buddyName when editing is finished
+                guiBehind.setBuddyName(text);
+            }
         }
 
         //Binding {

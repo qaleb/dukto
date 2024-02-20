@@ -936,6 +936,7 @@ void GuiBehind::setShowUpdateBanner(bool show)
 
 void GuiBehind::setBuddyName(QString name)
 {
+    qDebug() << "Buddy name is:  " << name;
     mSettings->saveBuddyName(name.replace(' ', ""));
     mDuktoProtocol.updateBuddyName();
     mBuddiesList.updateMeElement();
