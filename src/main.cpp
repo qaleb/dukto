@@ -96,8 +96,9 @@ int main(int argc, char *argv[])
 
     // Disable the maximize button and set fixed window size
     viewer->setFlags(viewer->flags() & ~(Qt::WindowMaximizeButtonHint));
-    viewer->setMinimumSize(QSize(350, 500));
-    viewer->setMaximumSize(QSize(350, 5000));
+    viewer->setFlags( Qt::Window | Qt::CustomizeWindowHint | Qt::WindowTitleHint | Qt::WindowSystemMenuHint | Qt::WindowMinimizeButtonHint | Qt::WindowCloseButtonHint );
+    viewer->setMinimumSize(QSize(360, 600));
+    viewer->setMaximumSize(QSize(360, 600));
 #else
     viewer.showFullScreen();
     gb.initConnection();

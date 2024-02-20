@@ -109,7 +109,7 @@ public:
     void setShowTermsOnStart(bool show);
     bool showUpdateBanner();
     void setShowUpdateBanner(bool show);
-    void setBuddyName(QString name);
+//    void setBuddyName(QString name);
     QString buddyName();
     QString appVersion();
 
@@ -184,6 +184,7 @@ public slots:
     void sendText();
     void sendScreen();
     void changeThemeColor(QString color);
+    void setBuddyName(QString name);
     void resetProgressStatus();
     void abortTransfer();
     void sendBuddyDroppedFiles(const QStringList &files);

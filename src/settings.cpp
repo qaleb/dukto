@@ -66,7 +66,7 @@ void Settings::saveWindowGeometry(QRect geo)
 {
    // mSettings.setValue("WindowPosAndSize", geo);
    // mSettings.sync();
-    QRect staticRect(geo.left(), geo.top(), 360, 600);
+    QRect staticRect(geo.left(), geo.top()+30, 360, 600);
     mSettings.setValue("WindowPosAndSize", staticRect);
     mSettings.sync();
 }
@@ -105,12 +105,12 @@ QString Settings::buddyName()
 {
     // Retrieve the last saved name (if any)
     return mSettings.value("BuddyName", "").toString();
-
 }
 
 void Settings::saveBuddyName(QString name)
 {
     // Save the new name
     mSettings.setValue("BuddyName", name);
+    qDebug() << "The buddyName to be saved is:";
     mSettings.sync();
 }

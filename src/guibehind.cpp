@@ -417,12 +417,23 @@ void GuiBehind::sendDroppedFiles(QStringList *files)
     startTransfer(toSend);
 }
 
-void GuiBehind::sendBuddyDroppedFiles(const QStringList &files)
+void GuiBehind::sendBuddyDroppedFiles(const QStringList &urls)
 {
-    if (files.isEmpty()) return;
+    if (urls.isEmpty()) return;
+
+    QStringList localPaths;
+
+    foreach (const QString &url, urls) {
+        QUrl fileUrl(url);
+        if (fileUrl.isLocalFile()) {
+            localPaths.append(fileUrl.toLocalFile());
+        }
+    }
+
+    // qDebug() << localPaths;
 
     // Send files
-    QStringList toSend = files;
+    QStringList toSend = localPaths;
     startTransfer(toSend);
 }
 
@@ -925,6 +936,7 @@ void GuiBehind::setShowUpdateBanner(bool show)
 
 void GuiBehind::setBuddyName(QString name)
 {
+    qDebug() << "Buddy name is:  " << name;
     mSettings->saveBuddyName(name.replace(' ', ""));
     mDuktoProtocol.updateBuddyName();
     mBuddiesList.updateMeElement();
