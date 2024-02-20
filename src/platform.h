@@ -31,6 +31,8 @@ public:
     static QString getPlatformName();
     static QString getAvatarPath();
     static QString getDefaultPath();
+    static QString username;
+    static void updateUsername(const QString &name);
 
 // private:
     Platform() {}

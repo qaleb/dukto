@@ -56,6 +56,7 @@ QTM_USE_NAMESPACE
 #endif
 
 #include "settings.h"
+QString Platform::username = "";
 
 // Returns the system username
 QString Platform::getSystemUsername()
@@ -68,7 +69,7 @@ QString Platform::getSystemUsername()
 //#else
 
     // Save in a static variable so that It's always ready
-    static QString username = "";
+    username = !s.buddyName().isEmpty() ? s.buddyName() : "";
     if (username != "") return username;
 
 #if defined (Q_OS_WIN)
@@ -141,6 +142,12 @@ QString Platform::getSystemUsername()
     */
     return uname;
 //#endif
+}
+
+void Platform::updateUsername(const QString &name)
+{
+    username = name;
+    qDebug() << "The username changed to:" << username;
 }
 
 // Returns the hostname

@@ -113,4 +113,7 @@ void Settings::saveBuddyName(QString name)
     mSettings.setValue("BuddyName", name);
     qDebug() << "The buddyName to be saved is:";
     mSettings.sync();
+
+    // Update the static username when the buddyName is set
+    Platform::updateUsername(name);
 }
