@@ -1,0 +1,77 @@
+buildscript {
+    repositories {
+        google() // Add the Google Maven repository
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4' // Update the Gradle Android plugin version
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Add the Google Maven repository
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+    subprojects {
+        afterEvaluate { project ->
+            if (project.hasProperty('android')) {
+                project.android {
+                    if (namespace == null) {
+                        namespace project.group
+                    }
+                }
+            }
+        }
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    /*******************************************************
+     * The following variables:
+     * - androidBuildToolsVersion,
+     * - androidCompileSdkVersion
+     * - qt5AndroidDir - holds the path to qt android files
+     *                   needed to build any Qt application
+     *                   on Android.
+     *
+     * are defined in gradle.properties file. This file is
+     * updated by QtCreator and androiddeployqt tools.
+     * Changing them manually might break the compilation!
+     *******************************************************/
+
+    compileSdkVersion 19
+//    compileSdkVersion androidCompileSdkVersion.toInteger()
+//    buildToolsVersion "21.1.2"
+    buildToolsVersion "34.0.0"
+
+    namespace "idv.coolshou.dukto"
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['C:/Qt2/5.15.2/android/src', 'src', 'java']
+            aidl.srcDirs = ['C:/Qt2/5.15.2/android/src', 'src', 'aidl']
+            res.srcDirs = ['C:/Qt2/5.15.2/android/res', 'res']
+            resources.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // Add your other dependencies here
+}

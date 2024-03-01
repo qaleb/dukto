@@ -147,7 +147,7 @@ QString Platform::getSystemUsername()
 void Platform::updateUsername(const QString &name)
 {
     username = name;
-    qDebug() << "The username changed to:" << username;
+//    qDebug() << "The username changed to:" << username;
 }
 
 // Returns the hostname
