@@ -4,3 +4,4 @@ qrc_*.cpp
 /build-stamp
 /debian/dukto/
 *.pro.user
+/android/local.properties

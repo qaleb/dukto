@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+array bundled_in_assets
+array bundled_in_lib
+array bundled_libs
+array qt_libs
+array qt_sources
+drawable icon
+string fatal_error_msg
+string ministro_needed_msg
+string ministro_not_found_msg

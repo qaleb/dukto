@@ -1,0 +1,8 @@
+idv.coolshou.dukto-android-0 C:\Qt2\5.15.2\android\res
+idv.coolshou.dukto-pngs-1 C:\xampp\htdocs\dukto\android\build\generated\res\pngs\debug
+idv.coolshou.dukto-resValues-2 C:\xampp\htdocs\dukto\android\build\generated\res\resValues\debug
+idv.coolshou.dukto-packageDebugResources-3 C:\xampp\htdocs\dukto\android\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+idv.coolshou.dukto-packageDebugResources-4 C:\xampp\htdocs\dukto\android\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+idv.coolshou.dukto-debug-5 C:\xampp\htdocs\dukto\android\build\intermediates\merged_res\debug\mergeDebugResources
+idv.coolshou.dukto-android-6 C:\xampp\htdocs\dukto\android\res
+idv.coolshou.dukto-debug-7 C:\xampp\htdocs\dukto\android\src\debug\res

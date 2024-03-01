@@ -1016,7 +1016,7 @@ void GuiBehind::createTrayIcon()
     trayIconMenu = new QMenu(nullptr);
     #endif
     trayIconMenu->addAction(minimizeAction);
-    trayIconMenu->addAction(maximizeAction);
+//    trayIconMenu->addAction(maximizeAction);
     trayIconMenu->addAction(restoreAction);
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(quitAction);
@@ -1037,7 +1037,12 @@ void GuiBehind::iconActivated(QSystemTrayIcon::ActivationReason reason)
     case QSystemTrayIcon::Trigger:
         //single left click
 #if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
-        qDebug() << "//TODO:QT5 single left click on systray icon";
+        // qDebug() << "//TODO:QT5 single left click on systray icon";
+        if (mView->isVisible() || mView->windowState() == Qt::WindowMinimized) {
+            mView->showNormal(); // Restore the application if it is hidden
+        } else {
+            mView->hide();
+        }
 #else
         if (mView->isHidden() || mView->isMinimized()) {
             mView->showNormal();

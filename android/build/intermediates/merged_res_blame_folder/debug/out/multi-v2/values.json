@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "idv.coolshou.dukto-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\xampp\\htdocs\\dukto\\android\\src\\main\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "20,17,9,13,2",
+                        "startColumns": "4,4,4,5,4",
+                        "startOffsets": "575,482,309,399,57",
+                        "endLines": "22,19,11,15,4",
+                        "endColumns": "12,12,12,13,12",
+                        "endOffsets": "668,569,390,474,178"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,11,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,114,170,224,275",
+                        "endLines": "4,7,10,13,16",
+                        "endColumns": "12,12,12,13,12",
+                        "endOffsets": "109,165,219,270,394"
+                    }
+                },
+                {
+                    "source": "C:\\xampp\\htdocs\\dukto\\android\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2,1",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "197,110,17",
+                        "endColumns": "77,85,91",
+                        "endOffsets": "270,191,104"
+                    },
+                    "to": {
+                        "startLines": "17,18,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "399,477,563",
+                        "endColumns": "77,85,91",
+                        "endOffsets": "472,558,650"
+                    }
+                }
+            ]
+        }
+    ]
+}

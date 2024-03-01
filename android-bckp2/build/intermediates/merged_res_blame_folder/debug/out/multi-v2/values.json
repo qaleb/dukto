@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "idv.coolshou.dukto-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\xampp\\htdocs\\dukto\\android\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "20,17,9,13,2,26,25,24",
+                        "startColumns": "4,4,4,5,4,4,4,4",
+                        "startOffsets": "578,485,312,402,57,841,763,679",
+                        "endLines": "22,19,11,15,4,26,25,24",
+                        "endColumns": "12,12,12,13,12,68,76,82",
+                        "endOffsets": "671,572,393,477,181,905,835,757"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,11,14,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,170,224,275,402,471,548",
+                        "endLines": "4,7,10,13,16,17,18,19",
+                        "endColumns": "12,12,12,13,12,68,76,82",
+                        "endOffsets": "109,165,219,270,397,466,543,626"
+                    }
+                }
+            ]
+        }
+    ]
+}
