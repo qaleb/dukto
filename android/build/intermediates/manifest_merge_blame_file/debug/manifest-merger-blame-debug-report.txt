@@ -6,22 +6,22 @@
 6    android:versionName="6.15.12.09" >
 7
 8    <uses-sdk
-8-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:43:5-73
+8-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:43:5-73
 9        android:minSdkVersion="21"
-9-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:43:15-41
+9-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:43:15-41
 10        android:targetSdkVersion="30" />
-10-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:43:42-71
+10-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:43:42-71
 11
 12    <supports-screens
-12-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:44:5-135
+12-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:44:5-135
 13        android:anyDensity="true"
-13-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:44:80-105
+13-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:44:80-105
 14        android:largeScreens="true"
-14-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:44:23-50
+14-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:44:23-50
 15        android:normalScreens="true"
-15-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:44:51-79
+15-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:44:51-79
 16        android:smallScreens="true" />
-16-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:44:106-133
+16-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:44:106-133
 17
 18    <!--
 19         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
@@ -37,165 +37,165 @@
 29    <!-- %%INSERT_FEATURES -->
 30
 31    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-31-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:54:1-68
-31-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:54:18-66
+31-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:54:1-68
+31-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:54:18-66
 32    <uses-permission android:name="android.permission.VIBRATE" />
-32-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:55:5-65
-32-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:55:22-63
+32-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:55:5-65
+32-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:55:22-63
 33    <uses-permission android:name="android.permission.WAKE_LOCK" />
-33-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:56:5-67
-33-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:56:22-65
+33-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:56:5-67
+33-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:56:22-65
 34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-34-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:57:5-80
-34-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:57:22-78
+34-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:57:5-80
+34-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:57:22-78
 35    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-35-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:58:5-79
-35-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:58:22-77
+35-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:58:5-79
+35-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:58:22-77
 36    <uses-permission android:name="android.permission.SET_ORIENTATION" />
-36-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:59:5-73
-36-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:59:22-71
+36-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:59:5-73
+36-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:59:22-71
 37    <uses-permission android:name="android.permission.INTERNET" />
-37-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:60:1-62
-37-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:60:18-60
+37-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:60:1-62
+37-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:60:18-60
 38    <uses-permission android:name="android.permission.READ_PROFILE" />
-38-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:61:1-66
-38-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:61:18-64
+38-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:61:1-66
+38-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:61:18-64
 39    <uses-permission android:name="android.permission.READ_CONTACTS" />
-39-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:62:5-71
-39-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:62:22-69
+39-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:62:5-71
+39-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:62:22-69
 40
 41    <application
-41-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:3:5-42:19
-42        android:name="org.qtproject.qt5.android.bindings.QtApplication"
-42-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:3:53-116
+41-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:3:5-42:19
+42        android:name="org.qtproject.qt.android.bindings.QtApplication"
+42-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:3:53-115
 43        android:debuggable="true"
 44        android:hardwareAccelerated="true"
-44-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:3:18-52
+44-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:3:18-52
 45        android:icon="@drawable/icon"
-45-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:3:159-188
-46        android:label="-- %%INSERT_APP_NAME%% --"
-46-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:3:117-158
+45-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:3:138-167
+46        android:label="Dukto"
+46-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:3:116-137
 47        android:testOnly="true" >
 48        <activity
-48-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:4:9-41:20
-49            android:name="org.qtproject.qt5.android.bindings.QtActivity"
-49-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:4:19-79
-50            android:label="-- %%INSERT_APP_NAME%% --"
-50-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:4:80-121
+48-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:4:9-41:20
+49            android:name="org.qtproject.qt.android.bindings.QtActivity"
+49-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:4:19-78
+50            android:label="Dukto"
+50-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:4:79-100
 51            android:launchMode="singleTop"
-51-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:4:162-192
+51-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:4:141-171
 52            android:screenOrientation="unspecified" >
-52-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:4:122-161
+52-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:4:101-140
 53            <intent-filter>
-53-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:5:13-8:29
+53-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:5:13-8:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:6:17-68
-54-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:6:25-66
+54-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:6:17-68
+54-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:6:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:7:17-76
-56-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:7:27-74
+56-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:7:17-76
+56-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:7:27-74
 57            </intent-filter>
 58
 59            <meta-data
-59-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:9:13-107
+59-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:9:13-107
 60                android:name="android.app.lib_name"
-60-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:9:24-59
+60-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:9:24-59
 61                android:value="-- %%INSERT_APP_LIB_NAME%% --" />
-61-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:9:60-105
+61-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:9:60-105
 62            <meta-data
-62-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:10:13-112
+62-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:10:13-112
 63                android:name="android.app.qt_sources_resource_id"
-63-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:10:24-73
+63-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:10:24-73
 64                android:resource="@array/qt_sources" />
-64-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:10:74-110
+64-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:10:74-110
 65            <meta-data
-65-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:11:13-87
+65-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:11:13-87
 66                android:name="android.app.repository"
-66-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:11:24-61
+66-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:11:24-61
 67                android:value="default" />
-67-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:11:62-85
+67-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:11:62-85
 68            <meta-data
-68-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:12:13-106
+68-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:12:13-106
 69                android:name="android.app.qt_libs_resource_id"
-69-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:12:24-70
+69-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:12:24-70
 70                android:resource="@array/qt_libs" />
-70-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:12:71-104
+70-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:12:71-104
 71            <meta-data
-71-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:13:13-116
+71-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:13:13-116
 72                android:name="android.app.bundled_libs_resource_id"
-72-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:13:24-75
+72-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:13:24-75
 73                android:resource="@array/bundled_libs" />
-73-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:13:76-114
+73-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:13:76-114
 74            <!-- Deploy Qt libs as part of package -->
 75            <meta-data
-75-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:15:13-120
+75-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:15:13-120
 76                android:name="android.app.bundle_local_qt_libs"
-76-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:15:24-71
+76-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:15:24-71
 77                android:value="-- %%BUNDLE_LOCAL_QT_LIBS%% --" />
-77-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:15:72-118
+77-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:15:72-118
 78            <meta-data
-78-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:16:13-120
+78-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:16:13-120
 79                android:name="android.app.bundled_in_lib_resource_id"
-79-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:16:24-77
+79-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:16:24-77
 80                android:resource="@array/bundled_in_lib" />
-80-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:16:78-118
+80-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:16:78-118
 81            <meta-data
-81-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:17:13-126
+81-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:17:13-126
 82                android:name="android.app.bundled_in_assets_resource_id"
-82-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:17:24-80
+82-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:17:24-80
 83                android:resource="@array/bundled_in_assets" />
-83-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:17:81-124
+83-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:17:81-124
 84            <!-- Run with local libs -->
 85            <meta-data
-85-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:19:13-114
+85-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:19:13-114
 86                android:name="android.app.use_local_qt_libs"
-86-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:19:24-68
+86-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:19:24-68
 87                android:value="-- %%USE_LOCAL_QT_LIBS%% --" />
-87-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:19:69-112
+87-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:19:69-112
 88            <meta-data
-88-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:20:13-100
+88-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:20:13-100
 89                android:name="android.app.libs_prefix"
-89-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:20:24-62
+89-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:20:24-62
 90                android:value="/data/local/tmp/qt/" />
-90-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:20:63-98
+90-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:20:63-98
 91            <meta-data
-91-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:21:13-112
+91-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:21:13-112
 92                android:name="android.app.load_local_libs"
-92-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:21:24-66
+92-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:21:24-66
 93                android:value="-- %%INSERT_LOCAL_LIBS%% --" />
-93-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:21:67-110
+93-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:21:67-110
 94            <meta-data
-94-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:22:13-112
+94-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:22:13-112
 95                android:name="android.app.load_local_jars"
-95-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:22:24-66
+95-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:22:24-66
 96                android:value="-- %%INSERT_LOCAL_JARS%% --" />
-96-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:22:67-110
+96-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:22:67-110
 97            <meta-data
-97-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:23:13-118
+97-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:23:13-118
 98                android:name="android.app.static_init_classes"
-98-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:23:24-70
+98-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:23:24-70
 99                android:value="-- %%INSERT_INIT_CLASSES%% --" />
-99-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:23:71-116
+99-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:23:71-116
 100            <!-- Messages maps -->
 101            <meta-data
-101-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:25:13-122
+101-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:25:13-122
 102                android:name="android.app.ministro_not_found_msg"
-102-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:25:71-120
+102-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:25:71-120
 103                android:value="@string/ministro_not_found_msg" />
-103-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:25:24-70
+103-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:25:24-70
 104            <meta-data
-104-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:26:13-116
+104-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:26:13-116
 105                android:name="android.app.ministro_needed_msg"
-105-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:26:68-114
+105-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:26:68-114
 106                android:value="@string/ministro_needed_msg" />
-106-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:26:24-67
+106-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:26:24-67
 107            <meta-data
-107-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:27:13-108
+107-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:27:13-108
 108                android:name="android.app.fatal_error_msg"
-108-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:27:64-106
+108-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:27:64-106
 109                android:value="@string/fatal_error_msg" />
-109-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:27:24-63
+109-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:27:24-63
 110            <!-- Messages maps -->
 111            <!-- Splash screen -->
 112<!--             <meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/logo"/> -->
@@ -208,11 +208,11 @@
 119                          signal is sent!
 120            -->
 121            <meta-data
-121-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:39:13-93
+121-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:39:13-93
 122                android:name="android.app.background_running"
-122-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:39:24-69
+122-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:39:24-69
 123                android:value="false" />
-123-->C:\xampp\htdocs\dukto\android\src\main\AndroidManifest.xml:39:70-91
+123-->/home/qaleb/coding/dukto/android/src/main/AndroidManifest.xml:39:70-91
 124            <!-- Background running -->
 125        </activity>
 126    </application>

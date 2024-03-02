@@ -1,9 +1,9 @@
 idv.coolshou.dukto:string/ministro_not_found_msg = 0x7f030002
-idv.coolshou.dukto:string/ministro_needed_msg = 0x7f030001
 idv.coolshou.dukto:string/fatal_error_msg = 0x7f030000
 idv.coolshou.dukto:drawable/icon = 0x7f020000
-idv.coolshou.dukto:array/qt_libs = 0x7f010003
-idv.coolshou.dukto:array/qt_sources = 0x7f010004
-idv.coolshou.dukto:array/bundled_in_lib = 0x7f010001
 idv.coolshou.dukto:array/bundled_libs = 0x7f010002
+idv.coolshou.dukto:array/qt_sources = 0x7f010004
+idv.coolshou.dukto:array/qt_libs = 0x7f010003
+idv.coolshou.dukto:string/ministro_needed_msg = 0x7f030001
+idv.coolshou.dukto:array/bundled_in_lib = 0x7f010001
 idv.coolshou.dukto:array/bundled_in_assets = 0x7f010000

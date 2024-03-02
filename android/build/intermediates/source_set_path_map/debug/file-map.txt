@@ -1,8 +1,7 @@
-idv.coolshou.dukto-pngs-0 C:\xampp\htdocs\dukto\android\build\generated\res\pngs\debug
-idv.coolshou.dukto-resValues-1 C:\xampp\htdocs\dukto\android\build\generated\res\resValues\debug
-idv.coolshou.dukto-rs-2 C:\xampp\htdocs\dukto\android\build\generated\res\rs\debug
-idv.coolshou.dukto-mergeDebugResources-3 C:\xampp\htdocs\dukto\android\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-idv.coolshou.dukto-mergeDebugResources-4 C:\xampp\htdocs\dukto\android\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-idv.coolshou.dukto-merged_res-5 C:\xampp\htdocs\dukto\android\build\intermediates\merged_res\debug
-idv.coolshou.dukto-debug-6 C:\xampp\htdocs\dukto\android\src\debug\res
-idv.coolshou.dukto-main-7 C:\xampp\htdocs\dukto\android\src\main\res
+idv.coolshou.dukto-pngs-0 /home/qaleb/coding/dukto/android/build/generated/res/pngs/debug
+idv.coolshou.dukto-resValues-1 /home/qaleb/coding/dukto/android/build/generated/res/resValues/debug
+idv.coolshou.dukto-mergeDebugResources-2 /home/qaleb/coding/dukto/android/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+idv.coolshou.dukto-mergeDebugResources-3 /home/qaleb/coding/dukto/android/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+idv.coolshou.dukto-merged_res-4 /home/qaleb/coding/dukto/android/build/intermediates/merged_res/debug
+idv.coolshou.dukto-debug-5 /home/qaleb/coding/dukto/android/src/debug/res
+idv.coolshou.dukto-main-6 /home/qaleb/coding/dukto/android/src/main/res

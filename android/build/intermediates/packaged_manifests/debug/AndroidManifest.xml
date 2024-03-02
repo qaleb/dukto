@@ -39,15 +39,15 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
-        android:name="org.qtproject.qt5.android.bindings.QtApplication"
+        android:name="org.qtproject.qt.android.bindings.QtApplication"
         android:debuggable="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
-        android:label="-- %%INSERT_APP_NAME%% --"
+        android:label="Dukto"
         android:testOnly="true" >
         <activity
-            android:name="org.qtproject.qt5.android.bindings.QtActivity"
-            android:label="-- %%INSERT_APP_NAME%% --"
+            android:name="org.qtproject.qt.android.bindings.QtActivity"
+            android:label="Dukto"
             android:launchMode="singleTop"
             android:screenOrientation="unspecified" >
             <intent-filter>
