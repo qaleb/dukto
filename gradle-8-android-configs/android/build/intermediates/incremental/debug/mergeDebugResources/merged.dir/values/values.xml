@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bundled_in_assets">
+        
+    </array>
+    <array name="bundled_in_lib">
+        
+    </array>
+    <array name="bundled_libs">
+        
+    </array>
+    <array name="qt_libs">
+         
+     </array>
+    <array name="qt_sources">
+        <item>https://download.qt-project.org/ministro/android/qt5/qt-5.4</item>
+    </array>
+    <string name="fatal_error_msg">Your fatal_error_msg string value</string>
+    <string name="ministro_needed_msg">Your ministro_needed_msg string value</string>
+    <string name="ministro_not_found_msg">Your ministro_not_found_msg string value</string>
+</resources>

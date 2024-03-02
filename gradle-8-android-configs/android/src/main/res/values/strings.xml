@@ -1,0 +1,6 @@
+<resources>
+    <string name="ministro_not_found_msg">Your ministro_not_found_msg string value</string>
+    <string name="ministro_needed_msg">Your ministro_needed_msg string value</string>
+    <string name="fatal_error_msg">Your fatal_error_msg string value</string>
+    <!-- Add any other strings your application uses -->
+</resources>

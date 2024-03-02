@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "idv.coolshou.dukto-merged_res-4:/drawable-xhdpi_icon.png.flat",
+        "source": "idv.coolshou.dukto-main-6:/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "idv.coolshou.dukto-merged_res-4:/drawable-ldpi_icon.png.flat",
+        "source": "idv.coolshou.dukto-main-6:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "idv.coolshou.dukto-merged_res-4:/drawable-hdpi_icon.png.flat",
+        "source": "idv.coolshou.dukto-main-6:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "idv.coolshou.dukto-merged_res-4:/drawable-mdpi_icon.png.flat",
+        "source": "idv.coolshou.dukto-main-6:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "idv.coolshou.dukto-merged_res-4:/drawable-xxhdpi_icon.png.flat",
+        "source": "idv.coolshou.dukto-main-6:/drawable-xxhdpi/icon.png"
+    }
+]

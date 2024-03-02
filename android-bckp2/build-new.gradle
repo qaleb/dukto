@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 12
+    // Updated to a version compatible with AGP 7.0.0
+
+    defaultConfig {
+        applicationId "idv.coolshou.dukto"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 615
+        versionName "6.15.12.09"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'idv.coolshou.dukto'
+    lint {
+        abortOnError false
+    }
+    // Extract native libraries from the APK
+    packagingOptions.jniLibs.useLegacyPackaging true
+
+    sourceSets {
+        main {
+
+            // Common configuration for both platforms
+            resources.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Add your other dependencies here
+
+    // Example:
+    // implementation 'com.android.support:appcompat-v7:28.0.0'
+}

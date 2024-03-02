@@ -1,0 +1,7 @@
+#Sat Mar 02 16:52:30 EAT 2024
+base.0=/home/qaleb/coding/dukto/android/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/home/qaleb/coding/dukto/android/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+path.0=0/classes.dex
+path.1=12/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
