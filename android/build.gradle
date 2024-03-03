@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.0'
+        classpath 'com.android.tools.build:gradle:4.2.2'
     }
 }
 
@@ -34,7 +34,7 @@ android {
      * Changing them manually might break the compilation!
      *******************************************************/
 
-    compileSdkVersion androidCompileSdkVersion.toInteger()
+    compileSdkVersion 30
 
     buildToolsVersion '28.0.3'
 
