@@ -1,5 +1,5 @@
 //  Saturation/brightness picking box
-import QtQuick 2.3
+import QtQuick 2.15
 
 Item {
     id: root
