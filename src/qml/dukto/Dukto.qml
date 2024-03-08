@@ -23,7 +23,7 @@ import QtQuick.Controls 2.15
 Rectangle {
     id: mainElement
     width: 360
-    height: 500
+    height: 600
 
     FontLoader {
         id: duktofont

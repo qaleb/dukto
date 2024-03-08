@@ -51,6 +51,7 @@ int main(int argc, char *argv[])
     QApplication::setApplicationName("dukto");
     QApplication::setOrganizationName("idv.coolshou");
     QApplication::setApplicationVersion(APP_VERSION);
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
 // Check for single running instance
 #define SINGLE
